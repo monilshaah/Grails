@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" com.springsource.tcserver.asf="false" com.springsource.tcserver.name="base-instance" configuration-id="/Servers/Pivotal tc Server Developer Edition v3.0-config" deployDir="wtpwebapps" hostname="localhost" id="Pivotal tc Server Developer Edition v3.0" id-set="true" name="Pivotal tc Server Developer Edition v3.0" runtime-id="Pivotal tc Server Developer Edition (Runtime) v3.0" saveSeparateContextFiles="true" server-type="com.pivotal.server.tc.80" server-type-id="com.pivotal.server.tc.80" start-timeout="120" stop-timeout="15" testEnvironment="false" timestamp="0">
+    <list key="removeExtraVmArgs"/>
+    <list key="addExtraVmArgs" value0="-Dinsight.enabled=false"/>
+  </server>
+  <server auto-publish-setting="1" hostname="Cloud" id="Pivotal Cloud Foundry" name="Pivotal Cloud Foundry" org.cloudfoundry.ide.eclipse.org="SJSU" org.cloudfoundry.ide.eclipse.serverId="monil.shaah@gmail.com_SJSU_development@https://api.run.pivotal.io" org.cloudfoundry.ide.eclipse.space="development" org.cloudfoundry.ide.eclipse.url="https://api.run.pivotal.io" org.cloudfoundry.ide.eclipse.username="monil.shaah@gmail.com" runtime-id="Cloud Foundry (Runtime) v1.0" server-type="org.cloudfoundry.appcloudserver.10" server-type-id="org.cloudfoundry.appcloudserver.10" start-timeout="600" stop-timeout="60" timestamp="13">
+    <list key="modules" value0="GumballMachineVer1::org.grails.ide.eclipse.runonserver.GrailsAppModuleFactory:GumballMachineVer1::grails.app::1.0" value1="GumballMachineVer2::org.grails.ide.eclipse.runonserver.GrailsAppModuleFactory:GumballMachineVer2::grails.app::1.0" value2="GumballMachineREST::org.grails.ide.eclipse.runonserver.GrailsAppModuleFactory:GumballMachineREST::grails.app::1.0"/>
+  </server>
+</servers>

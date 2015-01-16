@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<installs>
+<install is-default="false">
+<home>/Users/Monil/Documents/Softwares/IDE/ggts-bundle/grails-2.4.3/</home>
+<name>Grails 2.4.3</name>
+</install>
+<install is-default="true">
+<home>/Library/Grails/grails-2.4.4/</home>
+<name>Grails 2.4.4</name>
+</install>
+</installs>

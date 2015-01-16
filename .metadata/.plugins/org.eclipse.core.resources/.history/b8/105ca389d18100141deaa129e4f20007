@@ -1,0 +1,7 @@
+package gumballmachinerest
+
+class Test {
+
+    static constraints = {
+    }
+}
